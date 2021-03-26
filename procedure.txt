@@ -1,0 +1,6 @@
+The program was structured such that most of its function will run in an O(1).
+
+The linearization of the lower trinagular matrix was quite simplified. Since the number of boxes increases by one for every descend to the base of the triagle, a concept of consecutive integers were used. The formular for calculating the sum of positive integers (n(n+1))/2 was used to count the spaces available in the triangle. This number is corresponds to the length of the linear array and, hence, got declared by such count. A for-loop was used to insert the values concurrently into it together with the multidimensional array. 
+
+The inverse function works quite interesting. We know that the dimension is n * n such that algebriacally it would be n^2. This means that the area of the dimension would be n^2. In order to get the area of the triangle, we square root the n. This means the length/height is always halved as compared to the full area. the gave me the i index. For the j index, it is an extention of the how much the position can divide the full length of the array.
+
